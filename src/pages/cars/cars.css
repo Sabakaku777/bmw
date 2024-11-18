@@ -1,0 +1,40 @@
+.cars-container {
+  background-color: black;
+}
+
+.our-cars {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 35px;
+}
+.cars-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  background: transparent;
+  /* text-align: center; */
+  max-width: 300px;
+  color: white;
+  margin-left: 230px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.box {
+  background: transparent;
+  border: solid 1px white;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+.car-details {
+  margin-inline: 20px;
+}
+.cars-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+}

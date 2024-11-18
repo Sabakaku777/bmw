@@ -1,0 +1,27 @@
+.header {
+  font-size: 40px;
+}
+.car-image {
+  width: 100%;
+  height: 70%;
+}
+.cardd {
+  border: solid 1px white;
+  align-items: center;
+  color: white;
+  height: 500px;
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.cardd h2,
+p {
+  margin-left: 20px;
+}
+
+.explore-container {
+  margin-inline: 75px;
+}

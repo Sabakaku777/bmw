@@ -1,0 +1,90 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86vh;
+}
+.border-red {
+  border: solid 1px red;
+}
+.welcome-text {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 40px;
+}
+.reg-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px white;
+  padding-inline: 30px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+}
+input {
+  padding: 12px 25px 12px 8px;
+  font-size: 20px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+.reg-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.input-box {
+  border: solid 1px white;
+  padding-left: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.input-box i {
+  color: white;
+}
+
+.reg-button {
+  font-size: 19px;
+  padding-block: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.error-message {
+  margin: 0;
+  padding: 0;
+  color: red;
+  position: relative;
+  top: 5px;
+}
+
+.details-box {
+  margin-top: 40px;
+  backdrop-filter: blur(10px);
+  width: 500px;
+  margin-left: 500px;
+}
+
+.details-box h1 {
+  font-size: 22px;
+  text-align: center;
+}
+.active {
+  width: 60px;
+  text-align: center;
+}
+
+.btn-out {
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  margin-top: 50px;
+}

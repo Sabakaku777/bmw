@@ -1,0 +1,63 @@
+.title p {
+  font-size: 80px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 150px;
+  margin-inline: 80px;
+}
+
+.explore {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10px;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  width: 16%;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+.explore h1 {
+  color: black;
+  font-size: 17px;
+  padding: 13px;
+}
+.fa-right-long {
+  background-color: rgb(230, 62, 62);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.dots {
+  display: flex;
+  font-size: 30px;
+}
+.actived {
+  color: orange;
+}
+.video-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  border: solid 1px white;
+  font-size: 24px;
+  color: white;
+  padding: 15px;
+  padding-left: 18px;
+  border-radius: 50%;
+}
+.see {
+  font-size: 17px;
+  color: white;
+  margin-left: 20px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+  justify-content: space-between;
+}
